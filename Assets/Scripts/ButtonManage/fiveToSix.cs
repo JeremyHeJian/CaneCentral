@@ -10,6 +10,7 @@ public class fiveToSix : MonoBehaviour
     public Animation staAni;
     public GameObject mainCamera;
     public GameObject fiveToSixButton;
+    public GameObject questionOne;
 
     // Start is called before the first frame update
     void Start()
@@ -23,13 +24,14 @@ public class fiveToSix : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void fiveToSixPressed()
     {
         fiveToSixButton.SetActive(false);
         staff.SetActive(false);
+        questionOne.SetActive(true);
 
         stuAni.CrossFade("idle_01");
         stuAni.Play();
