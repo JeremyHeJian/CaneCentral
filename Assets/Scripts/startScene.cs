@@ -22,6 +22,9 @@ public class startScene : MonoBehaviour
     public GameObject fourToFiveButton;
     public GameObject fiveToSixButton;
 
+    public GameObject questionOne;
+    public GameObject correctAnswerOneScene;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -34,6 +37,8 @@ public class startScene : MonoBehaviour
         nameDia.SetActive(false);
         fourToFiveButton.SetActive(false);
         fiveToSixButton.SetActive(false);
+        questionOne.SetActive(false);
+        correctAnswerOneScene.SetActive(false);
     }
 
     // Update is called once per frame

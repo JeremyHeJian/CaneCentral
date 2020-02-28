@@ -348,13 +348,14 @@
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPPropagationSettings.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPSettings.cs" />
     <Compile Include="Assets\Oculus\Spatializer\scripts\ONSPVersion.cs" />
-    <Compile Include="Assets\Scripts\ButtonManage\fiveToSix.cs" />
-    <Compile Include="Assets\Scripts\ButtonManage\fourToFive.cs" />
-    <Compile Include="Assets\Scripts\ButtonManage\oneToTwo.cs" />
-    <Compile Include="Assets\Scripts\ButtonManage\threeToFour.cs" />
-    <Compile Include="Assets\Scripts\ButtonManage\twoToThree.cs" />
+    <Compile Include="Assets\Scripts\ButtonManager\fiveToSix.cs" />
+    <Compile Include="Assets\Scripts\ButtonManager\fourToFive.cs" />
+    <Compile Include="Assets\Scripts\ButtonManager\oneToTwo.cs" />
+    <Compile Include="Assets\Scripts\ButtonManager\threeToFour.cs" />
+    <Compile Include="Assets\Scripts\ButtonManager\twoToThree.cs" />
     <Compile Include="Assets\Scripts\cameraStart.cs" />
     <Compile Include="Assets\Scripts\moveForward.cs" />
+    <Compile Include="Assets\Scripts\QuestionManager\FirstCorrectAnswer.cs" />
     <Compile Include="Assets\Scripts\startScene.cs" />
     <Compile Include="Assets\Scripts\studentStart.cs" />
     <Compile Include="Assets\TaichiCharacterPack\TwinViewer\Scripts\Twin2ndSceneScript.cs" />
@@ -515,6 +516,9 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>C:/Users/jxh1486/Desktop/InnovateTeam/CaneCentral/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>C:/Users/jxh1486/Desktop/InnovateTeam/CaneCentral/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
       <HintPath>C:/Users/jxh1486/Desktop/InnovateTeam/CaneCentral/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
@@ -529,9 +533,6 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>C:/Users/jxh1486/Desktop/InnovateTeam/CaneCentral/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>C:/Users/jxh1486/Desktop/InnovateTeam/CaneCentral/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
