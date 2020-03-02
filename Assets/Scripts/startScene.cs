@@ -28,6 +28,7 @@ public class startScene : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        startButton.SetActive(true);
         staff.SetActive(false);
         oneToTwoButton.SetActive(false);
         twoToThreeButton.SetActive(false);
