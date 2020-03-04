@@ -23,6 +23,7 @@ public class startScene : MonoBehaviour
     public GameObject fiveToSixButton;
 
     public GameObject questionOne;
+    public GameObject questionTwo;
     public GameObject correctAnswerOneScene;
 
     // Start is called before the first frame update
@@ -39,6 +40,7 @@ public class startScene : MonoBehaviour
         fourToFiveButton.SetActive(false);
         fiveToSixButton.SetActive(false);
         questionOne.SetActive(false);
+        questionTwo.SetActive(false);
         correctAnswerOneScene.SetActive(false);
     }
 
