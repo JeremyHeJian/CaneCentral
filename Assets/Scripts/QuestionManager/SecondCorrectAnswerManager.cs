@@ -5,6 +5,7 @@ using UnityEngine;
 public class SecondCorrectAnswerManager : MonoBehaviour
 {
     public GameObject questionTwo;
+    public GameObject questionThree;
     public GameObject correctAnswerTwoScene;
     public GameObject wrongAnswerTwoScene1;
     public GameObject wrongAnswerTwoScene2;
@@ -57,5 +58,6 @@ public class SecondCorrectAnswerManager : MonoBehaviour
         correctAnswerTwoScene.SetActive(false);
         wrongAnswerTwoScene1.SetActive(false);
         wrongAnswerTwoScene2.SetActive(false);
+        questionThree.SetActive(true);
     }
 }

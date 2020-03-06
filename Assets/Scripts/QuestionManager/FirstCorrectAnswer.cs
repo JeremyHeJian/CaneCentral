@@ -39,7 +39,7 @@ public class FirstCorrectAnswer : MonoBehaviour
 
     public void wrongAnswer2Pressed()
     {
-        questionOne.SetActive(false);
+        questionOne.SetActive(false); 
         wrongAnswerScene1.SetActive(false);
         wrongAnswerScene2.SetActive(true);
         correctAnswerOneScene.SetActive(false);

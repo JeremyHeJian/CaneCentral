@@ -357,6 +357,7 @@
     <Compile Include="Assets\Scripts\moveForward.cs" />
     <Compile Include="Assets\Scripts\QuestionManager\FirstCorrectAnswer.cs" />
     <Compile Include="Assets\Scripts\QuestionManager\SecondCorrectAnswerManager.cs" />
+    <Compile Include="Assets\Scripts\QuestionManager\ThirdCorrectAnswerManager.cs" />
     <Compile Include="Assets\Scripts\startScene.cs" />
     <Compile Include="Assets\Scripts\studentStart.cs" />
     <Compile Include="Assets\TaichiCharacterPack\TwinViewer\Scripts\Twin2ndSceneScript.cs" />
